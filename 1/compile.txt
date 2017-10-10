@@ -1,0 +1,2 @@
+Cara compile nya pakai gcc 
+$ gcc -o main fungsi.c main.c -Wall

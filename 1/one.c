@@ -29,13 +29,14 @@ void print_identitas(){
     printf("Alamat : Distrik Kabuki\n");
     printf("=======================\n");
 }
-
+//prosedur menjumlah 2 parameter integer
 void print_jumlah(int num1,int num2){
     int hasil;
     hasil = num1 + num2;
     printf("%d + %d = %d\n",num1,num2,hasil);
 }
 
+//fungsi mengembalikan nilai dari parameter integer dan operator 
 float hitung(int num1, int num2, char operator){
     int hasil;
     if(operator=='+'){
